@@ -1,8 +1,5 @@
 package 其他测试.一些测试.test;
 
-
-
-
 class parent {
 	public static void main(String args[]) throws Exception {
 	

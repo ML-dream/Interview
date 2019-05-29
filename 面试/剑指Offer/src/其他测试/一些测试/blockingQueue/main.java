@@ -1,4 +1,4 @@
-package blockingQueue;
+package å…¶ä»–æµ‹è¯•.ä¸€äº›æµ‹è¯•.blockingQueue;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
@@ -10,7 +10,7 @@ public class main {
 		// TODO Auto-generated method stub
 		
 		
-		//sÊ¹ÓÃjoin£¬±£Ö¤Ïß³ÌµÄË³ÐòÖ´ÐÐ£¡£¡£¡£¡
+		//sÊ¹ï¿½ï¿½joinï¿½ï¿½ï¿½ï¿½Ö¤ï¿½ß³Ìµï¿½Ë³ï¿½ï¿½Ö´ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	/*	for (int i = 0; i < 1; i++) {
 			 Thread  t = new Thread(new producter(re), "Producer" + (i + 1));
 			 
@@ -27,7 +27,7 @@ public class main {
 		}*/
 		
 	
-		//²¢²»ÊÇÒ»¶¨Ö´ÐÐµ½µÄ£¡
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ö´ï¿½Ðµï¿½ï¿½Ä£ï¿½
 		
 		
 		
