@@ -1,4 +1,4 @@
-package test;
+package å…¶ä»–æµ‹è¯•.ä¸€äº›æµ‹è¯•.test;
 
 class SingleTon {
 	private static SingleTon singleTon = new SingleTon();
@@ -21,7 +21,7 @@ class SingleTon {
 public class Test2 {
 	public static void main(String[] args) throws Exception {
 		//SingleTon singleTon = SingleTon.getInstance();
-		Class  cla=Class.forName("test.SingleTon");//¼ÓÔØ¾Í»áÒýÆð¾²Ì¬µÄÖ´ÐÐ£¡£¡£¡
+		Class  cla=Class.forName("test.SingleTon");//ï¿½ï¿½ï¿½Ø¾Í»ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½Ö´ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½
 		
 		SingleTon singleTon = SingleTon.getInstance();
 		System.out.println("count1=" + singleTon.count1);
