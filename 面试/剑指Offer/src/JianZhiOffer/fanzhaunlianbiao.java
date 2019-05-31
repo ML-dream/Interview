@@ -5,7 +5,8 @@ package JianZhiOffer;
  * 注意：链表的头插法是与先出现得在后面，最后出现的是头结点！
  * 		一般情况下，都是先暂时开一个新节点，然后使用头插法一直插入，直到插完为止！
  * 
- * 
+ * 头插法：新节点变为链表的第一个节点，字面意思就是在头上进行插入！！！
+ * 尾插法：新节点变为链表的最后的节点，字面意思就是在尾部进行插入！！！
  */
 public class fanzhaunlianbiao {
 
@@ -21,12 +22,12 @@ public class fanzhaunlianbiao {
 	    	ListNode node1 = null ;
 	    	while(head!=null) {
 	    		ListNode node = new ListNode(head.val);
-	    		node.next=node1;
+	    		node.next=node1.next;
 	    		node1=node;
 	    		head=head.next;	    
 				
 			}
-	    	return node1.next;
+	    	return node1;
 	        
 	    }
 //	   尾插法  就是正常的先进先出，先出现的是第一个

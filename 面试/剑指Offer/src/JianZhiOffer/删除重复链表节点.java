@@ -171,9 +171,7 @@ public class 删除重复链表节点 {
 		    }*/
 	
 //	方法三：非递归实现！！！！主要是理清逻辑什么时候进行修改
-		//其实和递归不只是下面那两句话的差别，其实是:将遍历循环分成了两种可能，当直接可以确定的
-		//的情况下，直接就走else的路线，当中间有重复的情况下，走if的路线，每次都会执行到不相等
-			//时候，然后直接
+		//有点费解
 			public static ListNode deleteDuplication3(ListNode pHead) {
 				if (pHead==null || pHead.next==null){return pHead;}
 				ListNode Head = new ListNode(0);
@@ -186,11 +184,10 @@ public class 删除重复链表节点 {
 				        while (last.next!=null && last.val == last.next.val){
 				            last = last.next;
 				        }
-//				        pre.next = last.next;
+				        pre.next = last.next;
 				        last = last.next;//这一步就是和递归的区别！！！
 				    }else{
-				    	pre.next=last.next;
-				        pre= pre.next;
+				        pre = pre.next;
 				        last = last.next;//zhe一步就是和递归的区别
 				    }
 				}
