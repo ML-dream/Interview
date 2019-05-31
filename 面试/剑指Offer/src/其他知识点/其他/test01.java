@@ -1,4 +1,4 @@
-package 总结API;
+package 其他知识点.其他;
 
 /**
  * @author auduser
