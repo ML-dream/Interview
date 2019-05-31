@@ -1,4 +1,4 @@
-package test;
+package 其他测试.一些测试.test;
 
 public class threadTest {
 

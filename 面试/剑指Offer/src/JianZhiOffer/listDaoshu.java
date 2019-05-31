@@ -26,11 +26,4 @@ public class listDaoshu {
         return i < k ? null : q;
     }
 }
-		class ListNode {
-	    int val;
-	    ListNode next = null;
-	
-	    ListNode(int val) {
-	        this.val = val;
-	    }
-	    
+		

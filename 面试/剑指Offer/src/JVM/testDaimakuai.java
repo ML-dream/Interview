@@ -11,7 +11,7 @@ public class testDaimakuai {
 		
 	}
 	public testDaimakuai() {
-		System.out.println(a);
+//		System.out.println(a);
 		System.out.println("dsdsdsdsdsd");
 	}
 	

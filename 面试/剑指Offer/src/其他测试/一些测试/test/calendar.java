@@ -1,4 +1,4 @@
-package test;
+package å…¶ä»–æµ‹è¯•.ä¸€äº›æµ‹è¯•.test;
 
 import java.sql.Date;
 import java.text.SimpleDateFormat;
@@ -13,8 +13,8 @@ public class calendar {
 		  calendar2.add(Calendar.DATE, 3);
 		  String three_days_after = sdf2.format(calendar2.getTime());
 		  System.out.println(three_days_after);
-		  SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//ÉèÖÃÈÕÆÚ¸ñÊ½
-          System.out.println(df.format(calendar2.getTime()));// new Date()Îª»ñÈ¡µ±Ç°ÏµÍ³Ê±¼ä
+		  SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½Ê½
+          System.out.println(df.format(calendar2.getTime()));// new Date()Îªï¿½ï¿½È¡ï¿½ï¿½Ç°ÏµÍ³Ê±ï¿½ï¿½
 	}
 
 }

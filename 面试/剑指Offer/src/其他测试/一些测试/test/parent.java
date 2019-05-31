@@ -1,14 +1,13 @@
-package test;
-
+package å…¶ä»–æµ‹è¯•.ä¸€äº›æµ‹è¯•.test;
 
 class parent {
 	public static void main(String args[]) throws Exception {
 	
 	int aa = test2.a;
 
-	/* Class  cla=Class.forName("test.test1");//½øĞĞcom.TestOneÀà¼ÓÔØ£¬·µ»ØÒ»¸öClass¶ÔÏó  
+	/* Class  cla=Class.forName("test.test1");//ï¿½ï¿½ï¿½ï¿½com.TestOneï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Classï¿½ï¿½ï¿½ï¿½  
      System.out.println("********jiazai");  */
-  //   test1 one=(test1)cla.newInstance();//²úÉúÕâ¸öClassÀà¶ÔÏóµÄÒ»¸öÊµÀı£¬µ÷ÓÃ¸ÃÀàÎŞ²ÎµÄ¹¹Ôì·½·¨£¬×÷ÓÃµÈÍ¬ÓÚnew TestOne()  
+  //   test1 one=(test1)cla.newInstance();//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Classï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¸ï¿½ï¿½ï¿½ï¿½Ş²ÎµÄ¹ï¿½ï¿½ì·½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Í¬ï¿½ï¿½new TestOne()  
 	}
 }
 
@@ -20,6 +19,6 @@ class test2{
 	}
 	
 	 test2() {		
-		System.out.println("test1³õÊ¼»¯¡­¡­¡­¡­¡­¡­");		
+		System.out.println("test1ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");		
 	}	
 }

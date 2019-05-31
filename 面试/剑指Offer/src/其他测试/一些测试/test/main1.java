@@ -1,4 +1,4 @@
-package test;
+package 其他测试.一些测试.test;
 
 public class main1 {
 
@@ -11,7 +11,7 @@ public class main1 {
 //		Class.forName("");
 		String ds="dsds";
 		System.out.println(main1.class.getClassLoader());
-		ClassLoader
+//		ClassLoader
 		new  Thread();
 	
 	/*}*/

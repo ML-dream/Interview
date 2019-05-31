@@ -1,4 +1,4 @@
-package blockingQueue;
+package 其他测试.一些测试.blockingQueue;
 
 import static org.junit.jupiter.api.Assertions.*;
 
