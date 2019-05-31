@@ -8,6 +8,7 @@ public class 链表 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int [] aa= {1,2,3,4};
+
 		System.out.println(Arrays.toString(aa));
 		ArrayList list = new ArrayList();
 		list.add(1);
