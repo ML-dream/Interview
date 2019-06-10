@@ -1,4 +1,4 @@
-package 数据结构和算法.JianZhiOffer;
+package 数据结构和算法.JianZhiOffer.树相关;
 
 /*
  * 输入一棵二叉树，判断该二叉树是否是平衡二叉树。

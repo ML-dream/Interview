@@ -1,4 +1,4 @@
-package 数据结构和算法.JianZhiOffer;
+package 数据结构和算法.JianZhiOffer.树相关;
 /*
  * 就是广度优先遍历==层序遍历
  * 

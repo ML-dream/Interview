@@ -1,4 +1,4 @@
-package 数据结构和算法.JianZhiOffer;
+package 数据结构和算法.JianZhiOffer.树相关;
 
 /*
  * 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。
